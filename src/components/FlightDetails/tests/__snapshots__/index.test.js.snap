@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightDetails Component should render the FlightDetails Component correctly - snapshot 1`] = `
+<div
+  className="flight-details"
+>
+  <h3
+    aria-label="Search Flight Results"
+    className="search-heading color-red fs-20 fw-600 pt-4 m-0 text-center"
+    tabIndex="0"
+  >
+    Search Flight Results
+  </h3>
+</div>
+`;

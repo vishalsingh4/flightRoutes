@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render the Header Component correctly - snapshot 1`] = `
+<nav
+  className="navbar navbar-expand-lg bg-dark d-flex align-items-center p-0"
+>
+  <img
+    alt="logo-preview"
+    className="logo"
+    height="75"
+    src="logo.png"
+    width="75"
+  />
+  <div
+    className="manage-section d-flex justify-content-around align-items-center color-white fs-15 fw-600 w-50"
+  >
+    <span
+      aria-label="book"
+      className="link"
+      tabIndex="0"
+    >
+      BOOK
+    </span>
+    <span
+      aria-label="manage"
+      className="link"
+      tabIndex="0"
+    >
+      MANAGE
+    </span>
+    <span
+      aria-label="experience"
+      className="link"
+      tabIndex="0"
+    >
+      EXPERIENCE
+    </span>
+    <span
+      aria-label="where we fly"
+      className="link"
+      tabIndex="0"
+    >
+      WHERE WE FLY
+    </span>
+    <span
+      aria-label="loyalty"
+      className="link"
+      tabIndex="0"
+    >
+      LOYALTY
+    </span>
+    <span
+      aria-label="help"
+      className="link"
+      tabIndex="0"
+    >
+      HELP
+    </span>
+  </div>
+  <div
+    className="user position-absolute"
+  >
+    <img
+      alt="user-avatar"
+      height="30"
+      src="avatar.png"
+      width="30"
+    />
+    <span
+      aria-label="katy pearson"
+      className="logged-user color-white fs-15 fw-600"
+      tabIndex="0"
+    >
+      Katy Pearson
+    </span>
+  </div>
+</nav>
+`;

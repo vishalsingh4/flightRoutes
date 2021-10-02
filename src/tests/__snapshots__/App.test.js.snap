@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render the Header Component correctly - snapshot 1`] = `
+<div
+  className="app"
+>
+  <header
+    className="header-section"
+  >
+    <HeaderComponent />
+  </header>
+  <main
+    className="main-section"
+  >
+    <FlightDetails />
+  </main>
+  <footer
+    className="footer-section"
+  >
+    <FooterComponent />
+  </footer>
+</div>
+`;

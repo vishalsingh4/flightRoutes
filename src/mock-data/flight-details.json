@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM1092",
+        "sourceCode": "DEL",
+        "arrivalTime": "30/09/2021 08:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "30/09/2021 14:10:02",
+        "price": "17424",
+        "noOfStops": "non-stop"
+    },
+    {
+        "id": 2,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM1322",
+        "sourceCode": "DEL",
+        "arrivalTime": "01/10/2021 04:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "01/10/2021 11:10:02",
+        "price": "12500",
+        "noOfStops": "non-stop"
+    },
+    {
+        "id": 3,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM2322",
+        "sourceCode": "DEL",
+        "arrivalTime": "01/10/2021 06:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "01/10/2021 13:10:02",
+        "price": "10424",
+        "noOfStops": "1 stop"
+    },
+    {
+        "id": 4,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM1326",
+        "sourceCode": "DEL",
+        "arrivalTime": "01/10/2021 09:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "02/10/2021 15:10:02",
+        "price": "14500",
+        "noOfStops": "3 stops"
+    },
+    {
+        "id": 5,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM2422",
+        "sourceCode": "DEL",
+        "arrivalTime": "01/10/2021 13:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "01/10/2021 18:10:02",
+        "price": "13420",
+        "noOfStops": "non-stop"
+    },
+    {
+        "id": 6,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM2322",
+        "sourceCode": "DEL",
+        "arrivalTime": "01/10/2021 16:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "01/10/2021 22:10:02",
+        "price": "15300",
+        "noOfStops": "non-stop"
+    },
+    {
+        "id": 7,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM1222",
+        "sourceCode": "DEL",
+        "arrivalTime": "01/10/2021 18:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "02/10/2021 04:10:02",
+        "price": "20424",
+        "noOfStops": "1 stop"
+    },
+    {
+        "id": 8,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM2388",
+        "sourceCode": "DEL",
+        "arrivalTime": "02/10/2021 08:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "02/10/2021 14:10:02",
+        "price": "19424",
+        "noOfStops": "non-stop"
+    },
+    {
+        "id": 9,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM2322",
+        "sourceCode": "DEL",
+        "arrivalTime": "02/10/2021 14:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "02/10/2021 23:10:02",
+        "price": "27424",
+        "noOfStops": "non-stop"
+    },
+    {
+        "id": 10,
+        "flightName": "EMIRATES",
+        "flightNumber": "EM2322",
+        "sourceCode": "DEL",
+        "arrivalTime": "03/10/2021 16:10:02",
+        "destinationCode": "DXB",
+        "destinationTime": "04/10/2021 23:10:02",
+        "price": "20400",
+        "noOfStops": "4 stops"
+    }
+]

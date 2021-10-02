@@ -1,0 +1,329 @@
+.flight-container {
+    .detail-section {
+        flex: 1 1 70%;
+        .logo-section, .duration {
+            flex: 1 0 20%;
+        }
+        .source-section, .destination-section {
+            flex: 1 0 30%;
+        }
+    }
+
+    .booking-section {
+        flex: 1 0 30%;
+        .price-section {
+            flex: 1 0 40%;
+        }
+        .book-btn {
+            flex: 1 0 60%;
+        }
+    }
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .main-section {
+        top: 90px;
+        max-height: calc(100% - 130px);
+        .flight-details {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .flight-container {
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .detail-section {
+                flex-direction: column;
+                flex: 1;
+                text-align: center;
+                .logo-section {
+                    align-items: center;
+                    .flight-name {
+                        font-size: 12px;
+                    }
+                    .flight-number {
+                        font-size: 12px;
+                    }
+                }
+                .source-section {
+                    padding: 10px;
+                    .source-code {
+                        font-size: 12px;
+                    }
+                    .source-time-hm {
+                        font-size: 15px;
+                    }
+                    .source-time-dm {
+                        font-size: 12px;
+                    }
+                    .source-name {
+                        font-size: 12px;
+                    }
+                }
+                .duration {
+                    align-items: center;
+                    .flight-duration {
+                        font-size: 12px;
+                    }
+                    .noOf-stops {
+                        font-size: 12px;
+                    }
+                }
+                .destination-section {
+                    padding: 10px;
+                    .destination-code {
+                        font-size: 12px;
+                    }
+                    .destination-time-hm {
+                        font-size: 15px;
+                    }
+                    .destination-time-dm {
+                        font-size: 12px;
+                    }
+                    .destination-name {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .vertical-separator {
+                border-left: 0;
+                border-bottom: 2px dashed #bcbcbc;
+                width: 100%;
+                height: 0;
+                right: 0;
+                top: 79%;
+            }
+            .booking-section {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 30px;
+                .price-section {
+                    font-size: 18px;
+                    flex: 1;
+                }
+                .book-btn {
+                    font-size: 15px;
+                    flex: 1;
+                    width: 75%;
+                    padding: 6px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .main-section {
+        top: 104px;
+        max-height: calc(100% - 157px);
+        .flight-details {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .flight-container {
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .detail-section {
+                flex-direction: column;
+                flex: 1;
+                text-align: center;
+                .logo-section {
+                    align-items: center;
+                    .flight-name {
+                        font-size: 14px;
+                    }
+                    .flight-number {
+                        font-size: 14px;
+                    }
+                }
+                .source-section {
+                    padding: 10px;
+                    .source-code {
+                        font-size: 14px;
+                    }
+                    .source-time-hm {
+                        font-size: 18px;
+                    }
+                    .source-time-dm {
+                        font-size: 14px;
+                    }
+                    .source-name {
+                        font-size: 14px;
+                    }
+                }
+                .duration {
+                    align-items: center;
+                    .flight-duration {
+                        font-size: 14px;
+                    }
+                    .noOf-stops {
+                        font-size: 14px;
+                    }
+                }
+                .destination-section {
+                    padding: 10px;
+                    .destination-code {
+                        font-size: 14px;
+                    }
+                    .destination-time-hm {
+                        font-size: 18px;
+                    }
+                    .destination-time-dm {
+                        font-size: 14px;
+                    }
+                    .destination-name {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .vertical-separator {
+                border-left: 0;
+                border-bottom: 2px dashed #bcbcbc;
+                width: 100%;
+                height: 0;
+                right: 0;
+                top: 79%;
+            }
+            .booking-section {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 30px;
+                .price-section {
+                    font-size: 20px;
+                    flex: 1;
+                }
+                .book-btn {
+                    font-size: 18px;
+                    flex: 1;
+                    width: 75%;
+                    padding: 6px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .main-section {
+        top: 125px;
+        max-height: calc(100% - 200px);
+        .flight-details {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .flight-container {
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .detail-section {
+                flex-direction: column;
+                flex: 1;
+                text-align: center;
+                .logo-section {
+                    align-items: center;
+                    .flight-name {
+                        font-size: 15px;
+                    }
+                    .flight-number {
+                        font-size: 15px;
+                    }
+                }
+                .source-section {
+                    padding: 10px;
+                    .source-code {
+                        font-size: 15px;
+                    }
+                    .source-time-hm {
+                        font-size: 20px;
+                    }
+                    .source-time-dm {
+                        font-size: 15px;
+                    }
+                    .source-name {
+                        font-size: 15px;
+                    }
+                }
+                .duration {
+                    align-items: center;
+                    .flight-duration {
+                        font-size: 15px;
+                    }
+                    .noOf-stops {
+                        font-size: 15px;
+                    }
+                }
+                .destination-section {
+                    padding: 10px;
+                    .destination-code {
+                        font-size: 15px;
+                    }
+                    .destination-time-hm {
+                        font-size: 20px;
+                    }
+                    .destination-time-dm {
+                        font-size: 15px;
+                    }
+                    .destination-name {
+                        font-size: 15px;
+                    }
+                }
+            }
+            .vertical-separator {
+                border-left: 0;
+                border-bottom: 2px dashed #bcbcbc;
+                width: 100%;
+                height: 0;
+                right: 0;
+                top: 79%;
+            }
+            .booking-section {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 30px;
+                .price-section {
+                    font-size: 22px;
+                    flex: 1;
+                }
+                .book-btn {
+                    font-size: 20px;
+                    flex: 1;
+                    width: 75%;
+                    padding: 6px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+  } 
+
+/* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px){
+    .main-section {
+        .flight-details {
+            .flight-container {
+                .detail-section {
+                    .logo-section, .duration {
+                        flex: 1 1 15%;
+                    }
+                    .source-section,.destination-section {
+                        flex: 1 1 35%;
+                    }
+                }
+                .booking-section {
+                    .price-section {
+                        font-size: 18px;
+                    }
+                    .book-btn {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+  } 

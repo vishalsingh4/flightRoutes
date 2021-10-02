@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should render the Footer Component correctly - snapshot 1`] = `
+<div
+  className="footer-wrapper bg-dark color-white fs-15 fw-600 d-flex align-items-center justify-content-between p-3"
+>
+  <ul
+    className="footer-list d-flex justify-content-around align-items-center w-50 p-0 m-0"
+  >
+    <li
+      aria-label="about us"
+      className="link"
+      tabIndex="0"
+    >
+      ABOUT US
+    </li>
+    <li
+      aria-label="privacy"
+      className="link"
+      tabIndex="0"
+    >
+      PRIVACY
+    </li>
+    <li
+      aria-label="terms of use"
+      className="link"
+      tabIndex="0"
+    >
+      TERMS OF USE
+    </li>
+    <li
+      aria-label="careers"
+      className="link"
+      tabIndex="0"
+    >
+      CAREERS
+    </li>
+    <li
+      aria-label="customer service"
+      className="link"
+      tabIndex="0"
+    >
+      CUSTOMER SERVICE
+    </li>
+  </ul>
+  <ul
+    className="p-0 m-0"
+  >
+    <li
+      aria-label="copyright Le Travenues Technology Ltd. Dubai"
+      className="copyright"
+      tabIndex="0"
+    >
+      © 2021 Le Travenues Technology Ltd. Dubai
+    </li>
+  </ul>
+</div>
+`;
